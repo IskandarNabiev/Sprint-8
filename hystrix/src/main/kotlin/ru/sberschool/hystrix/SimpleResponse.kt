@@ -1,3 +1,6 @@
 package ru.sberschool.hystrix
 
-data class SimpleResponse(val data: String)
+
+data class Generation(
+    val name: String
+)
